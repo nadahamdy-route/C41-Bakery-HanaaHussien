@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "Alegreya";
+    src: url(images/cyrillic-400-italic.ttf);
+}
+
+body {
+    font-family: "Alegreya";
+    padding: 0;
+    margin: 0;
+    color: #686868
+}
+
+.btn{
+    padding: 15px 28px;
+   
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0 3px;
+
+}
+.gold-btn{
+border: 2px solid transparent;
+background-color: #8e7754;}
+.transperant-btn{
+    border: 2px solid #fff;
+
+    background-color: transparent;}
+bo
+p {
+    color: #686868
+}
+
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 95%;
+}
+
+.home .menu {
+    width: 80%;
+    display: inline-block;
+}
+
+.home .menu a {
+    color: #fff;
+    padding: 30px 10px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.panner-text {
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.home .menu a.active {
+    color: #e0dcd2;
+    border-top: 3px solid #ae9768;
+    display: inline-block;
+
+}
+
+.home h5 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.home h1 {
+    font-size: 58px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.home h1, .home h15 {
+    margin: 15px 0
+}
+
+.home p {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.home ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+
+.home li {
+    display: inline-block;
+    padding: 0px 15px;
+    /* margin: 5px; */
+}
+
+
+
+
+
+
+
+
+
+
+.Who_are .data {
+    width: 45%;
+    display: inline-block;
+    padding-left: 4%;
+}
+
+.Who_are .img {
+    width: 49%;
+    display: inline-block;
+}
+
+.Who_are p {
+    margin-bottom: 30px;
+}
+
+.Who_are ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Who_are ul li {
+    margin: 15px 0
+}
+
+.Who_are span {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: transparent;
+    display: inline-block;
+    border: 1px solid #00000026;
+    text-align: center;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.Who_are span img {
+    width: 44px;
+
+
+}
+
+.icon-contact {
+    width: 36px;
+    height: 36px;
+    background: #8f7757;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.Our_Baking {
+    text-align: center
+}
+
+.details {
+    line-height: 36px;
+    padding: 10px 15px 10px 0;
+}
+
+.bg-gray {
+    background-color: #f8f8f8
+}
+
+.padding {
+    padding: 70px 0
+}
+
+.our_location .data {
+    width: 45%;
+    display: inline-block;
+    padding-right: 4%;
+}
+
+.our_location .img {
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.img img {
+    width: 95%;
+}
+
+.contact {
+    float: left;
+    width: 46%;
+    padding-right: 4%;
+}
+
+.map {
+    float: left;
+    width: 50%
+}
+
+.baking {
+    width: 30%;
+    float: left;
+    padding: 3% 1.5%;
+    text-align: center
+}
+
+.baking img {
+    width: 100%;
+}
+
+h2, h3 {
+    color: #000
+}
+
+
+footer {
+    background-color: #353330;
+    color: #777;
+    text-align: center;
+}
+
+.sec-footer {
+    padding: 40px 0
+}
+
+footer h4 {
+    color: #fff
+}
+
+.footer-div {
+    width: 23%;
+    float: left;
+    padding: 1%;
+}
+
+footer ul {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+footer ul li {
+    padding: 10px 0;
+    background-image: url(images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+.f-footer {
+    background-color: #403d38;
+    text-align: left;
+    padding: 50px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto
+}
+
+footer p {
+    margin: 30px 0
+}
+
+.social {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #484540;
+    border-radius: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background: #484540;
+    margin: auto;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.clear {
+    clear: both
+}
